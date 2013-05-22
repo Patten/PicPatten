@@ -1,0 +1,60 @@
+<!--
+  Application mobile PicPatten
+
+
+  Développé par Cédric Verger
+
+  Mai 2013
+  
+  -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>PicPatten</title>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="inc/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="inc/css/picpatten.css">
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="capturePhoto();"><img src="inc/img/photo.png" class="menuBtn"></button>
+      <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);"><img src="inc/img/gallery.png" class="menuBtn"></button>
+      <button class="profilBtn"><img src="inc/img/profil.png" class="menuBtn"></button>
+    </div>
+    <div class="placeHeader"></div>
+
+    <!-- Ici, on affiche le contenu de l'application -->
+    <p id="myP"></p>
+
+
+    <script type="text/javascript" src="inc/js/index.js" charset="utf-8"></script>
+    <script type="text/javascript" src="inc/js/storage.js" charset="utf-8"></script>
+    <script type="text/javascript" src="inc/js/photo.js" charset="utf-8"></script>
+    <script type="text/javascript" src="inc/js/geolocalisation.js" charset="utf-8"></script>
+    <script type="text/javascript" src="inc/js/profil.js" charset="utf-8"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Application Phonegap :
+
+Remplacez le dossier "www" de votre projet Android ou Iphone par celui-ci.

@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('../img/bg.png');
+}
+
+/* header */
+.header{
+	width: 100%;
+	height: 58px;
+	position: fixed;
+	background: url('../img/bgHeader.jpg');
+}
+
+.placeHeader{
+	height: 58px;
+	width: 20px;
+}
+
+.header > button{
+	width: 50px;
+	height: 50px;
+	margin: 4px 4px 4px 4px;
+	border: none;
+	float: left;
+	background: transparent;
+}
+
+.menuBtn{
+	width: 100%;
+	height: 100%;
+}
+
+.profilBtn{
+	float: right!important; 
+}
+
+/* Content */
+
+#myP{
+	width: 96%;
+	margin-left: 2%;
+	color: #fff;
+}
+
+.imgGallery{
+	width: 100%;
+}
+
+.anImage{
+	margin-bottom: 30px;
+	background: url('../img/bgBtn.jpg');
+}
+
+.coord{
+	float: left;
+}
+
+.delete{
+	width: 15%;
+	float: right;
+}
+
+.plusBack{
+	width: 100%;
+	height: 35px;
+	background: url('../img/bgBtn.jpg');
+	margin-bottom: 30px;
+}
+
+.plus{
+	margin-left: 45%;
+}
+
+.clear{
+	clear: both;
+}
+
+.backToHome{
+	background: #fb6706;
+	color: #fff;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+.centerProfil{
+	margin-left: 20%;
+
+}
+
+#profil > p{
+	color : #fb6706;
+	margin-left: 15%;
+}
+
+#profil button{
+	background: #fb6706;
+	border: none;
+	padding: 10px;
+}
+
+.imgProfil{
+	width: 300px;
+	margin-left: -20%;
+}
+
